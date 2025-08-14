@@ -220,7 +220,83 @@
         </div>
       </div>
     </section>
+
+    <section class="mt-20 px-16 py-16 mb-16">
+      <h1 class="text-yellow-600 font-bold text-4xl text-center">FAQ (Pertanyaan yang Sering Diajukan)</h1>
+      <div class="space-y-4 mt-16">
+        <details class="group border-s-4 bg-gray-100 p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
+          open>
+          <summary class="flex items-center justify-between gap-1.5 text-gray-900">
+            <h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
+
+            <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+
+          <p class="pt-4 text-gray-900 indent-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in,
+            recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo
+            consequuntur distinctio corporis earum similique!
+          </p>
+        </details>
+        <details class="group border-s-4 bg-gray-100 p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
+          open>
+          <summary class="flex items-center justify-between gap-1.5 text-gray-900">
+            <h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
+
+            <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+
+          <p class="pt-4 text-gray-900 indent-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in,
+            recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo
+            consequuntur distinctio corporis earum similique!
+          </p>
+        </details>
+        <details class="group border-s-4 bg-gray-100 p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
+          open>
+          <summary class="flex items-center justify-between gap-1.5 text-gray-900">
+            <h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
+
+            <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+
+          <p class="pt-4 text-gray-900 indent-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in,
+            recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo
+            consequuntur distinctio corporis earum similique!
+          </p>
+        </details>
+        <details class="group border-s-4 bg-gray-100 p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
+          open>
+          <summary class="flex items-center justify-between gap-1.5 text-gray-900">
+            <h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
+
+            <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+
+          <p class="pt-4 text-gray-900 indent-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in,
+            recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo
+            consequuntur distinctio corporis earum similique!
+          </p>
+        </details>
+      </div>
+    </section>
   </main>
+
+  @include('components.footer-landing')
 </body>
 
 </html>
