@@ -45,11 +45,18 @@ class DatabaseSeeder extends Seeder
       'whatsapp' => '628123456780',
       'username' => 'murid_user',
     ]);
+    $perpus = User::factory()->create([
+      'name' => 'Perpustakaan User',
+      'email' => 'perpus@example.com',
+      'whatsapp' => '628123456780',
+      'username' => 'perpus_user',
+    ]);
 
     $superadmin->assignRole('superadmin');
     $murid->assignRole('murid');
     $koperasi->assignRole('koperasi');
     $tatausaha->assignRole('tata usaha');
     $kantin->assignRole('kantin');
+    $perpus->assignRole('perpustakaan');
   }
 }

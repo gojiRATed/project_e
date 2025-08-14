@@ -36,9 +36,10 @@
         di sekolah.</p>
       <div class="grid grid-cols-4 gap-6">
         <div
-          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-10 h-40 justify-center text-center w-full">
+          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-10 h-52 justify-center text-center w-full">
           <h3 class="font-semibold mb-4">Terintegrasi</h3>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class=" bi bi-qr-code-scan" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-qr-code-scan w-full"
+            viewBox="0 0 16 16">
             <path
               d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z" />
             <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z" />
@@ -48,15 +49,18 @@
             <path d="M12 9h2V8h-2z" />
           </svg>
         </div>
-        <div class="rounded-lg flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 p-6">
+        <div
+          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-10 h-52 justify-center text-center w-full">
           <h3 class="font-semibold">Hemat Waktu</h3>
 
         </div>
-        <div class="rounded-lg flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 p-6">
+        <div
+          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-10 h-52 justify-center text-center w-full">
           <h3 class="font-semibold">Transparan</h3>
 
         </div>
-        <div class="rounded-lg flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 p-6">
+        <div
+          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-10 h-52 justify-center text-center w-full">
           <h3 class="font-semibold">Modern</h3>
 
         </div>
