@@ -38,7 +38,7 @@
         di sekolah.</p>
       <div class="grid grid-cols-4 gap-6">
         <div
-          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-6 h-44 justify-center text-center w-full">
+          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-6 h-44 justify-center text-center w-full hover:scale-105 trasition-all duration-200">
           <h3 class="font-bold text-lg uppercase mb-4">Terintegrasi</h3>
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-qr-code-scan w-full"
             viewBox="0 0 16 16">
@@ -52,7 +52,7 @@
           </svg>
         </div>
         <div
-          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-6 h-44 justify-center text-center w-full">
+          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-6 h-44 justify-center text-center w-full hover:scale-105 trasition-all duration-200">
           <h3 class="font-bold text-lg uppercase mb-4">Hemat Waktu</h3>
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-clock-history w-full"
             viewBox="0 0 16 16">
@@ -64,7 +64,7 @@
           </svg>
         </div>
         <div
-          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-6 h-44 justify-center text-center w-full">
+          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-6 h-44 justify-center text-center w-full hover:scale-105 trasition-all duration-200">
           <h3 class="font-bold text-lg uppercase mb-4">Transparan</h3>
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search w-full" viewBox="0 0 16 16">
             <path
@@ -72,7 +72,7 @@
           </svg>
         </div>
         <div
-          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-6 h-44 justify-center text-center w-full">
+          class="rounded-lg flex flex-col bg-gray-200 hover:bg-sky-800 border border-gray-200 hover:text-slate-100 text-gray-700 px-6 py-6 h-44 justify-center text-center w-full hover:scale-105 trasition-all duration-200">
           <h3 class="font-bold text-lg uppercase mb-4">Modern</h3>
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cpu w-full" viewBox="0 0 16 16">
             <path
@@ -103,84 +103,78 @@
 
     <section id="fitur" class="px-16 py-16">
       <h1 class="text-4xl font-bold text-center text-yellow-600">Fitur Ekosistem Digital</h1>
-      <p class="text-center font-medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      <div class="grid grid-cols-3 gap-6 mt-12">
+      <p class="text-center font-medium">Semua Layanan di Satu Tempat</p>
+      <div class="grid grid-cols-3 gap-6 mt-12 text-gray-800">
         <div
-          class="rounded-2xl flex flex-grid border-slate-600 border border-opacity-60 opacity-80 hover:shadow-lg w-full px-2 py-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-2/3 "
+          class="rounded-2xl grid grid-cols-3 gap-3 h-40 border-slate-600 border border-opacity-60 hover:shadow-lg px-2 py-4 hover:scale-105 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-full self-center"
             viewBox="0 0 16 16">
             <path
               d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
           </svg>
-          <div class="flex-col">
-            <h3 class="flex pt-2 px-6 font-medium">Tata Usaha Digital</h3>
-            <p class=" flex px-6 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat quasi sequi
-              exercitationem alias,</p>
+          <div class="col-span-2">
+            <h3 class="font-medium">Tata Usaha Digital</h3>
+            <p class="mt-2">Catat & kelola peminjaman barang sekolah dengan sistem otomatis.</p>
           </div>
         </div>
         <div
-          class="rounded-2xl flex flex-grid border-slate-600 border border-opacity-60 opacity-80 hover:shadow-lg w-full px-2 py-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-2/3 "
+          class="rounded-2xl grid grid-cols-3 gap-3 h-40 border-slate-600 border border-opacity-60 hover:shadow-lg px-2 py-4 hover:scale-105 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-full self-center"
             viewBox="0 0 16 16">
             <path
               d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
           </svg>
-          <div class="flex-col">
-            <h3 class="flex pt-2 px-6 font-medium">Koperasi Digital</h3>
-            <p class=" flex px-6 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat quasi sequi
-              exercitationem alias,</p>
+          <div class="col-span-2">
+            <h3 class="font-medium">Koperasi Digital</h3>
+            <p class="mt-2">Beli perlengkapan sekolah langsung dari website.</p>
           </div>
         </div>
         <div
-          class="rounded-2xl flex flex-grid border-slate-600 border border-opacity-60 opacity-80 hover:shadow-lg w-full px-2 py-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-2/3 "
+          class="rounded-2xl grid grid-cols-3 gap-3 h-40 border-slate-600 border border-opacity-60 hover:shadow-lg px-2 py-4 hover:scale-105 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-full self-center"
             viewBox="0 0 16 16">
             <path
               d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
           </svg>
-          <div class="flex-col">
-            <h3 class="flex pt-2 px-6 font-medium">Kantin Pintar</h3>
-            <p class=" flex px-6 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat quasi sequi
-              exercitationem alias,</p>
+          <div class="col-span-2">
+            <h3 class="font-medium">Kantin Pintar</h3>
+            <p class="mt-2">Pesan dan bayar makanan tanpa uang tunai, tinggal scan & selesai.</p>
           </div>
         </div>
         <div
-          class="rounded-2xl flex flex-grid border-slate-600 border border-opacity-60 opacity-80 hover:shadow-lg w-full px-2 py-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-2/3 "
+          class="rounded-2xl grid grid-cols-3 gap-3 h-40 border-slate-600 border border-opacity-60 hover:shadow-lg px-2 py-4 hover:scale-105 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-full self-center"
             viewBox="0 0 16 16">
             <path
               d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
           </svg>
-          <div class="flex-col">
-            <h3 class="flex pt-2 px-6 font-medium">Perpustakaan Digital</h3>
-            <p class=" flex px-6 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat quasi sequi
-              exercitationem alias,</p>
+          <div class="col-span-2">
+            <h3 class="font-medium">Perpustakaan Digital</h3>
+            <p class="mt-2">Baca dari website atau Scan untuk peminjaman di perpustakaan.</p>
           </div>
         </div>
         <div
-          class="rounded-2xl flex flex-grid border-slate-600 border border-opacity-60 opacity-80 hover:shadow-lg w-full px-2 py-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-2/3 "
+          class="rounded-2xl grid grid-cols-3 gap-3 h-40 border-slate-600 border border-opacity-60 hover:shadow-lg px-2 py-4 hover:scale-105 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-full self-center"
             viewBox="0 0 16 16">
             <path
               d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
           </svg>
-          <div class="flex-col">
-            <h3 class="flex pt-2 px-6 font-medium">Pembayaran Cashless</h3>
-            <p class=" flex px-6 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat quasi sequi
-              exercitationem alias,</p>
+          <div class="col-span-2">
+            <h3 class="font-medium">Pembayaran Cashless</h3>
+            <p class="mt-2">Cukup scan dan bayar langsung dari ponsel!</p>
           </div>
         </div>
         <div
-          class="rounded-2xl flex flex-grid border-slate-600 border border-opacity-60 opacity-80 hover:shadow-lg w-full px-2 py-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-2/3 "
+          class="rounded-2xl grid grid-cols-3 gap-3 h-40 border-slate-600 border border-opacity-60 hover:shadow-lg px-2 py-4 hover:scale-105 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fork-knife w-full self-center"
             viewBox="0 0 16 16">
             <path
               d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
           </svg>
-          <div class="flex-col">
-            <h3 class="flex pt-2 px-6 font-medium">Laporan Keuangan Otomatis</h3>
-            <p class=" flex px-6 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat quasi sequi
-              exercitationem alias,</p>
+          <div class="col-span-2">
+            <h3 class=" font-medium">Laporan Keuangan Otomatis</h3>
+            <p class="mt-2">Semua transaksi tercatat rapi, bisa dicek kapan saja.</p>
           </div>
         </div>
       </div>
@@ -189,7 +183,7 @@
     <section class="px-16 py-16">
       <div class="flex gap-6 shadow hover:shadow-gray-600 rounded-xl bg-gray-900 transition-all duration-500">
         <div class="w-1/2">
-          <img src="{{asset('asset/BC69.jpg')}}" alt=""
+          <img src="{{ asset('asset/BC69.jpg') }}" alt=""
             class="rounded-l-xl shadow-md hover:scale-105 hover:shadow-gray-700 transition-all duration-500">
         </div>
         <div class="px-4 py-10">
