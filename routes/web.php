@@ -1,14 +1,19 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ViewsAppController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ViewsPublicController;
 
 Route::get('/', function () {
-  return view('landing');
+  return view('public.landing');
 });
 
 Route::get('/dashboard', [ViewsAppController::class, 'halamanUtama'])->name('dashboard');
+
+Route::get('/fitur', [ViewsPublicController::class, 'fiturIndex'])->name('fitur.index');
+
+
 
 
 // Route::group(['auth', 'verified', 'middleware' => ['role:superadmin']], function () {
