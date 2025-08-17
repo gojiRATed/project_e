@@ -224,7 +224,8 @@
     <section class="mt-20 px-16 py-16 mb-16">
       <h1 class="text-yellow-600 font-bold text-4xl text-center">FAQ (Pertanyaan yang Sering Diajukan)</h1>
       <div class="space-y-4 mt-16">
-        <details class="group border-s-4 bg-gray-100 p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
+        <details
+          class="group border-s-4 bg-white rounded-r-lg p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
           open>
           <summary class="flex items-center justify-between gap-1.5 text-gray-900">
             <h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
@@ -241,7 +242,8 @@
             consequuntur distinctio corporis earum similique!
           </p>
         </details>
-        <details class="group border-s-4 bg-gray-100 p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
+        <details
+          class="group border-s-4 bg-white rounded-r-lg p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
           open>
           <summary class="flex items-center justify-between gap-1.5 text-gray-900">
             <h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
@@ -258,7 +260,8 @@
             consequuntur distinctio corporis earum similique!
           </p>
         </details>
-        <details class="group border-s-4 bg-gray-100 p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
+        <details
+          class="group border-s-4 bg-white rounded-r-lg p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
           open>
           <summary class="flex items-center justify-between gap-1.5 text-gray-900">
             <h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
@@ -275,7 +278,8 @@
             consequuntur distinctio corporis earum similique!
           </p>
         </details>
-        <details class="group border-s-4 bg-gray-100 p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
+        <details
+          class="group border-s-4 bg-white rounded-r-lg p-4 border-gray-700 [&_summary::-webkit-details-marker]:hidden"
           open>
           <summary class="flex items-center justify-between gap-1.5 text-gray-900">
             <h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
