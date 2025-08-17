@@ -1,9 +1,8 @@
-<footer class="bg-white dark:bg-gray-900">
+<footer class="bg-gray-900">
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div class="lg:grid lg:grid-cols-2">
-      <div
-        class="border-b border-gray-100 py-8 lg:order-last lg:border-s lg:border-b-0 lg:py-16 lg:ps-16 dark:border-gray-800">
-        <div class="block text-teal-600 lg:hidden dark:text-teal-300">
+      <div class="border-b py-8 lg:order-last lg:border-s lg:border-b-0 lg:py-16 lg:ps-16 border-gray-800">
+        <div class="block lg:hidden text-teal-300">
           <svg class="h-8" viewBox="0 0 118 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M37.83 19.2047C37.2352 19.237 36.6469 19.0679 36.16 18.7247C35.9566 18.5739 35.7929 18.3758 35.6831 18.1476C35.5733 17.9193 35.5208 17.6678 35.53 17.4147V8.1447C35.5252 8.1055 35.5293 8.0656 35.5422 8.0282C35.555 7.9908 35.5762 7.9569 35.6042 7.9289C35.6322 7.9009 35.6661 7.8797 35.7035 7.8669C35.7409 7.854 35.7808 7.8499 35.82 7.8547H37.5C37.69 7.8547 37.78 7.9547 37.78 8.1447V16.6947C37.78 17.0747 37.95 17.2647 38.3 17.2647C38.4484 17.2708 38.5968 17.254 38.74 17.2147C38.94 17.2147 39.05 17.2747 39.06 17.4547L39.21 18.7047C39.2172 18.7412 39.2165 18.7787 39.208 18.8149C39.1995 18.851 39.1833 18.885 39.1605 18.9143C39.1378 18.9437 39.109 18.9679 39.0762 18.9852C39.0433 19.0025 39.0071 19.0126 38.97 19.0147C38.602 19.1363 38.2175 19.2004 37.83 19.2047Z"
@@ -42,9 +41,9 @@
           <span class="hidden h-1 w-10 rounded-sm bg-teal-500 lg:block"></span>
 
           <div>
-            <h2 class="text-2xl font-medium text-gray-900 dark:text-white">Request a Demo</h2>
+            <h2 class="text-2xl font-medium text-white">Request a Demo</h2>
 
-            <p class="mt-4 max-w-lg text-gray-500 dark:text-gray-400">
+            <p class="mt-4 max-w-lg text-gray-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, harum deserunt
               nesciunt praesentium, repellendus eum perspiciatis ratione pariatur a aperiam eius
               numquam doloribus asperiores sunt.
@@ -54,10 +53,9 @@
           <form class="mt-6 w-full">
             <label for="UserEmail" class="sr-only"> Email </label>
 
-            <div
-              class="rounded-md border border-gray-100 p-2 focus-within:ring-3 sm:flex sm:items-center sm:gap-4 dark:border-gray-800">
+            <div class="rounded-md border p-2 focus-within:ring-3 sm:flex sm:items-center sm:gap-4 border-gray-800">
               <input type="email" id="UserEmail" placeholder="john@rhcp.com"
-                class="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm dark:bg-gray-900 dark:text-white" />
+                class="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm bg-gray-900 text-white" />
 
               <button
                 class="mt-1 w-full rounded-sm bg-teal-500 px-6 py-3 text-sm font-bold tracking-wide text-white uppercase transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0">
@@ -69,7 +67,7 @@
       </div>
 
       <div class="py-8 lg:py-16 lg:pe-16">
-        <div class="hidden text-teal-600 lg:block dark:text-teal-300">
+        <div class="hidden lg:block text-teal-300">
           <svg class="h-8" viewBox="0 0 118 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M37.83 19.2047C37.2352 19.237 36.6469 19.0679 36.16 18.7247C35.9566 18.5739 35.7929 18.3758 35.6831 18.1476C35.5733 17.9193 35.5208 17.6678 35.53 17.4147V8.1447C35.5252 8.1055 35.5293 8.0656 35.5422 8.0282C35.555 7.9908 35.5762 7.9569 35.6042 7.9289C35.6322 7.9009 35.6661 7.8797 35.7035 7.8669C35.7409 7.854 35.7808 7.8499 35.82 7.8547H37.5C37.69 7.8547 37.78 7.9547 37.78 8.1447V16.6947C37.78 17.0747 37.95 17.2647 38.3 17.2647C38.4484 17.2708 38.5968 17.254 38.74 17.2147C38.94 17.2147 39.05 17.2747 39.06 17.4547L39.21 18.7047C39.2172 18.7412 39.2165 18.7787 39.208 18.8149C39.1995 18.851 39.1833 18.885 39.1605 18.9143C39.1378 18.9437 39.109 18.9679 39.0762 18.9852C39.0433 19.0025 39.0071 19.0126 38.97 19.0147C38.602 19.1363 38.2175 19.2004 37.83 19.2047Z"
@@ -106,112 +104,107 @@
 
         <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>
-            <p class="font-medium text-gray-900 dark:text-white">Services</p>
+            <p class="font-medium text-white">Fitur</p>
 
             <ul class="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  1on1 Coaching
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
+                  Tata Usaha Digital
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Company Review
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
+                  Koperasi Digital
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Accounts Review
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
+                  Perpustakaan Digital
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  HR Consulting
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
+                  Kantin Pintar
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  SEO Optimisation
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
+                  Pembayaran Non-Tunai
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
+                  Laporan Keuangan Otomatis
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <p class="font-medium text-gray-900 dark:text-white">Company</p>
+            <p class="font-medium text-white">Link Bantuan</p>
 
             <ul class="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  About
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Meet the Team
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Accounts Review
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <p class="font-medium text-gray-900 dark:text-white">Helpful Links</p>
-
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
                   Contact
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
                   FAQs
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
                   Live Chat
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div>
+            <p class="font-medium text-white">Kerjasama</p>
+
+            <ul class="mt-6 space-y-4 text-sm">
+              <li>
+                <a href="#" class="transition hover:opacity-75 text-gray-200">
+                  PT. Wijaya Teknologi Utama
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div class="mt-8 border-t border-gray-100 pt-8 dark:border-gray-800">
+        <div class="mt-8 border-t pt-8 border-gray-800">
           <ul class="flex flex-wrap gap-4 text-xs">
             <li>
-              <a href="#" class="text-gray-500 transition hover:opacity-75 dark:text-gray-400">
+              <a href="#" class="transition hover:opacity-75 text-gray-400">
                 Syaran & Ketentuan
               </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-500 transition hover:opacity-75 dark:text-gray-400">
+              <a href="#" class="transition hover:opacity-75 text-gray-400">
                 Kebijakan Privasi
               </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-500 transition hover:opacity-75 dark:text-gray-400">
+              <a href="#" class="transition hover:opacity-75 text-gray-400">
                 Cookies
               </a>
             </li>
           </ul>
 
-          <p class="mt-8 text-xs text-gray-500 dark:text-gray-400">
+          <p class="mt-8 text-xs text-gray-400">
             &copy; 2025. SMK NEGERI 2 MOJOKERTO. Semua Hak Dilindungi.
           </p>
         </div>

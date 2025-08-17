@@ -2,30 +2,31 @@
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
     <div
-      class="bg-slate-50 dark:bg-slate-800 rounded-lg h-32 md:h-52 flex flex-col justify-between p-5 border-2 rounded-lg border-gray-200 dark:border-gray-700">
-      <h2 class="text-xl font-semibold capitalize text-slate-800 dark:text-slate-100">Total Halaman</h2>
-      <span class="text-4xl font-extrabold text-center text-slate-800 dark:text-slate-100">10</span>
+      class="bg-slate-50 dark:bg-slate-800 h-32 md:h-40 flex flex-col justify-between p-5 border-2 rounded-lg border-gray-200 dark:border-gray-700">
+      <h2 class="text-xl font-bold capitalize text-slate-800 dark:text-slate-100">Tugas</h2>
+      <span class="text-2xl font-thin text-center text-slate-800 dark:text-slate-100">10</span>
       <a href=""
         class="text-md text-blue-600 dark:text-blue-500 hover:text-blue-700 dark:hover:text-blue-600 ">Lihat Detail</a>
     </div>
     <div
-      class="bg-slate-50 dark:bg-slate-800 rounded-lg h-32 md:h-52 flex flex-col justify-between p-5 border-2 rounded-lg border-gray-200 dark:border-gray-700">
-      <h2 class="text-xl font-semibold capitalize text-slate-800 dark:text-slate-100">Total Postingan</h2>
-      <span class="text-4xl font-extrabold text-center text-slate-800 dark:text-slate-100">10</span>
+      class="bg-slate-50 dark:bg-slate-800 h-32 md:h-40 flex flex-col justify-between p-5 border-2 rounded-lg border-gray-200 dark:border-gray-700">
+      <h2 class="text-xl font-bold capitalize text-slate-800 dark:text-slate-100">Buku Perpustakaan</h2>
+      <span class="text-2xl font-thin text-center text-slate-800 dark:text-slate-100">10</span>
       <a href=""
         class="text-md text-blue-600 dark:text-blue-500 hover:text-blue-700 dark:hover:text-blue-600 ">Lihat Detail</a>
     </div>
     <div
-      class="bg-slate-50 dark:bg-slate-800 rounded-lg h-32 md:h-52 flex flex-col justify-between p-5 border-2 rounded-lg border-gray-200 dark:border-gray-700">
-      <h2 class="text-xl font-semibold capitalize text-slate-800 dark:text-slate-100">Total Komentar</h2>
-      <span class="text-4xl font-extrabold text-center text-slate-800 dark:text-slate-100">10</span>
+      class="bg-slate-50 dark:bg-slate-800 h-32 md:h-40 flex flex-col justify-between p-5 border-2 rounded-lg border-gray-200 dark:border-gray-700">
+      <h2 class="text-xl font-bold capitalize text-slate-800 dark:text-slate-100">Transaksi</h2>
+      <span class="text-2xl font-thin text-center text-slate-800 dark:text-slate-100">10</span>
       <a href=""
         class="text-md text-blue-600 dark:text-blue-500 hover:text-blue-700 dark:hover:text-blue-600 ">Lihat Detail</a>
     </div>
     <div
-      class="bg-slate-50 dark:bg-slate-800 rounded-lg h-32 md:h-52 flex flex-col justify-between p-5 border-2 rounded-lg border-gray-200 dark:border-gray-700">
-      <h2 class="text-xl font-semibold capitalize text-slate-800 dark:text-slate-100">Total Pengunjung</h2>
-      <span class="text-4xl font-extrabold text-center text-slate-800 dark:text-slate-100">10</span>
+      class="bg-slate-50 dark:bg-slate-800 h-32 md:h-40 flex flex-col justify-between p-5 border-2 rounded-lg border-gray-200 dark:border-gray-700">
+      <h2 class="text-xl font-bold capitalize text-slate-800 dark:text-slate-100">Tabungan</h2>
+      <span class="text-2xl font-thin text-center text-slate-800 dark:text-slate-100"><span
+          class="text-sm font-thin">Rp</span> 100.000</span>
       <a href=""
         class="text-md text-blue-600 dark:text-blue-500 hover:text-blue-700 dark:hover:text-blue-600 ">Lihat Detail</a>
     </div>

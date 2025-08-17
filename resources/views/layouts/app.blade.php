@@ -14,27 +14,54 @@
 
   <!-- CSS -->
   <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+  <style>
+    .overflow-x-auto::-webkit-scrollbar {
+      height: 2px;
+    }
+
+    .overflow-x-auto::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    .overflow-x-auto::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 2px;
+    }
+
+    .overflow-y-auto::-webkit-scrollbar {
+      /* height: 4px; */
+      width: 2px;
+    }
+
+    .overflow-y-auto::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .overflow-y-auto::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+  </style>
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.46.0/dist/apexcharts.min.js"></script>
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased">
+<body class="font-sans antialiased scroll-smooth">
   <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
     @include('components.side-nav-app')
 
     <!-- Page Heading -->
-    @isset($header)
+    {{-- @isset($header)
       <header class="bg-white dark:bg-gray-800 shadow">
         <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           {{ $header }}
         </div>
       </header>
-    @endisset
+    @endisset --}}
 
     <!-- Page Content -->
-    <main class="p-4 md:ml-48 h-auto pt-20">
+    <main class="p-4 md:ml-64 h-auto pt-20">
       {{ $slot }}
     </main>
   </div>
