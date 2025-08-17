@@ -1,15 +1,14 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ViewsAppController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
   return view('landing');
 });
 
-Route::get('/dashboard', function () {
-  return view('dashboard');
-})->name('dashboard');
+Route::get('/dashboard', [ViewsAppController::class, 'halamanUtama'])->name('dashboard');
 
 
 // Route::group(['auth', 'verified', 'middleware' => ['role:superadmin']], function () {

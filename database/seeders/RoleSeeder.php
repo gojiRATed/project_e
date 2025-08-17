@@ -17,6 +17,7 @@ class RoleSeeder extends Seeder
     Role::create(['name' => 'tata usaha']);
     Role::create(['name' => 'kantin']);
     Role::create(['name' => 'koperasi']);
+    Role::create(['name' => 'perpustakaan']);
     Role::create(['name' => 'murid']);
   }
 }

@@ -270,7 +270,7 @@
       <li>
         <button type="button"
           class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-          aria-controls="dropdown-pembelajaran" data-collapse-toggle="dropdown-pembelajaran">
+          aria-controls="dropdown-kesiswaan" data-collapse-toggle="dropdown-kesiswaan">
           <svg aria-hidden="true"
             class="flex-shrink-0 w-6 h-6 text-gray-600 transition duration-75 group-hover:text-gray-900 dark:text-gray-200 dark:group-hover:text-white"
             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -278,7 +278,7 @@
               d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
               clip-rule="evenodd"></path>
           </svg>
-          <span class="flex-1 ml-3 text-left whitespace-nowrap capitalize">Pembelajaran</span>
+          <span class="flex-1 ml-3 text-left whitespace-nowrap capitalize">kesiswaan</span>
           <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"
@@ -286,26 +286,61 @@
               clip-rule="evenodd"></path>
           </svg>
         </button>
-        <ul id="dropdown-pembelajaran" class="hidden py-2 space-y-2 ml-5">
+        <ul id="dropdown-kesiswaan" class="hidden py-2 space-y-2 ml-5">
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Materi</a>
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Siswa</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Tugas</a>
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Kelas</a>
           </li>
-          {{-- <li>
+          <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">insight
-              pages</a>
-          </li> --}}
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Kejuruhan</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Kesehatan</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Konseling</a>
+          </li>
+          <li>
+            <button type="button"
+              class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+              aria-controls="dropdown-kesiswaan-izin" data-collapse-toggle="dropdown-kesiswaan-izin">
+              <span class="flex-1 ml-6 text-left whitespace-nowrap capitalize">izin</span>
+              <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+            <ul id="dropdown-kesiswaan-izin" class="hidden py-2 space-y-2 ml-5">
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Keluar</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Masuk</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Kirim
+              Pengumuman</a>
+          </li>
         </ul>
       </li>
       <li>
         <button type="button"
           class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-          aria-controls="dropdown-perpus" data-collapse-toggle="dropdown-perpus">
+          aria-controls="dropdown-kepegawaian" data-collapse-toggle="dropdown-kepegawaian">
           <svg aria-hidden="true"
             class="flex-shrink-0 w-6 h-6 text-gray-600 transition duration-75 group-hover:text-gray-900 dark:text-gray-200 dark:group-hover:text-white"
             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -313,7 +348,7 @@
               d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
               clip-rule="evenodd"></path>
           </svg>
-          <span class="flex-1 ml-3 text-left whitespace-nowrap capitalize">Perpustakaan Digital</span>
+          <span class="flex-1 ml-3 text-left whitespace-nowrap capitalize">Kepegawaian</span>
           <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"
@@ -321,28 +356,44 @@
               clip-rule="evenodd"></path>
           </svg>
         </button>
-        <ul id="dropdown-perpus" class="hidden py-2 space-y-2 ml-5">
+        <ul id="dropdown-kepegawaian" class="hidden py-2 space-y-2 ml-5">
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Halaman
-              Perpustakaan</a>
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Jabatan</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Buku
-              Saya</a>
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Pegawai</a>
           </li>
-          {{-- <li>
-            <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">insight
-              pages</a>
-          </li> --}}
+          <li>
+            <button type="button"
+              class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+              aria-controls="dropdown-kepegawaian-presensi" data-collapse-toggle="dropdown-kepegawaian-presensi">
+              <span class="flex-1 ml-6 text-left whitespace-nowrap capitalize">presensi</span>
+              <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+            <ul id="dropdown-kepegawaian-presensi" class="hidden py-2 space-y-2 ml-5">
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Rekap</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Pengaturan</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li>
         <button type="button"
           class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-          aria-controls="dropdown-koperasi" data-collapse-toggle="dropdown-koperasi">
+          aria-controls="dropdown-akademik" data-collapse-toggle="dropdown-akademik">
           <svg aria-hidden="true"
             class="flex-shrink-0 w-6 h-6 text-gray-600 transition duration-75 group-hover:text-gray-900 dark:text-gray-200 dark:group-hover:text-white"
             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -350,7 +401,7 @@
               d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
               clip-rule="evenodd"></path>
           </svg>
-          <span class="flex-1 ml-3 text-left whitespace-nowrap capitalize">Koperasi Digital</span>
+          <span class="flex-1 ml-3 text-left whitespace-nowrap capitalize">akademik</span>
           <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"
@@ -358,28 +409,79 @@
               clip-rule="evenodd"></path>
           </svg>
         </button>
-        <ul id="dropdown-koperasi" class="hidden py-2 space-y-2 ml-5">
+        <ul id="dropdown-akademik" class="hidden py-2 space-y-2 ml-5">
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Halaman
-              Koperasi</a>
-          </li>
-          {{-- <li>
-            <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">create
-              post</a>
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Tahun
+              Ajaran</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">insight
-              post</a>
-          </li> --}}
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Semester</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Mata
+              Pelajaran</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Jadwal
+              Pelajaran</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Materi</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Tugas</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Kenaikan
+              / Pindah Kelas</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Kelulusan</a>
+          </li>
+          <li>
+            <button type="button"
+              class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+              aria-controls="dropdown-akademik-presensi" data-collapse-toggle="dropdown-akademik-presensi">
+              <span class="flex-1 ml-6 text-left whitespace-nowrap capitalize">presensi</span>
+              <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+            <ul id="dropdown-akademik-presensi" class="hidden py-2 space-y-2 ml-5">
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Rekap
+                  Harian</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Rekap
+                  Semester</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Rekap
+                  Pelajaran</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li>
         <button type="button"
           class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-          aria-controls="dropdown-tu" data-collapse-toggle="dropdown-tu">
+          aria-controls="dropdown-keuangan" data-collapse-toggle="dropdown-keuangan">
           <svg aria-hidden="true"
             class="flex-shrink-0 w-6 h-6 text-gray-600 transition duration-75 group-hover:text-gray-900 dark:text-gray-200 dark:group-hover:text-white"
             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -387,7 +489,7 @@
               d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
               clip-rule="evenodd"></path>
           </svg>
-          <span class="flex-1 ml-3 text-left whitespace-nowrap capitalize">Tata Usaha Digital</span>
+          <span class="flex-1 ml-3 text-left whitespace-nowrap capitalize">Keuangan</span>
           <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"
@@ -395,17 +497,83 @@
               clip-rule="evenodd"></path>
           </svg>
         </button>
-        <ul id="dropdown-tu" class="hidden py-2 space-y-2 ml-5">
+        <ul id="dropdown-keuangan" class="hidden py-2 space-y-2 ml-5">
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Halaman
-              Tata Usaha</a>
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">pembayaran
+              murid</a>
           </li>
-          {{-- <li>
+          <li>
+            <button type="button"
+              class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+              aria-controls="dropdown-keuangan-pb" data-collapse-toggle="dropdown-keuangan-pb">
+              <span class="flex-1 ml-6 text-left whitespace-nowrap capitalize">peng. pembayaran</span>
+              <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+            <ul id="dropdown-keuangan-pb" class="hidden py-2 space-y-2 ml-5">
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">akun
+                  biaya</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">pembayaran</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">paket
+                  pembayaran</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">pajak</a>
+              </li>
+            </ul>
+          </li>
+          <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">add
-              user</a>
-          </li> --}}
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">kirim
+              tagihan</a>
+          </li>
+          <li>
+            <a href="#"
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">tabungan
+              murid</a>
+          </li>
+          <li>
+            <button type="button"
+              class="flex items-center p-2 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+              aria-controls="dropdown-keuangan-dompetdigital" data-collapse-toggle="dropdown-keuangan-dompetdigital">
+              <span class="flex-1 ml-6 text-left whitespace-nowrap capitalize">dompet digital</span>
+              <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+            <ul id="dropdown-keuangan-dompetdigital" class="hidden py-2 space-y-2 ml-5">
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">rekap
+                  transaksi</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">deposit</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">pengaturan</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li>
@@ -430,12 +598,12 @@
         <ul id="dropdown-kantin" class="hidden py-2 space-y-2 ml-5">
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Halaman
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Halaman
               Kantin Pintar</a>
           </li>
           {{-- <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">add
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">add
               user</a>
           </li> --}}
         </ul>
@@ -462,42 +630,42 @@
         <ul id="dropdown-sekolah" class="hidden py-2 space-y-2 ml-5">
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
               Fasilitas</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
               Ruang Kelas</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
               Kelas</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
               Guru</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
               Kantin</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
               Ekstrakulikuler</a>
           </li>
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Daftar
               Alumni</a>
           </li>
           {{-- <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">add
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">add
               user</a>
           </li> --}}
         </ul>
@@ -524,12 +692,12 @@
         <ul id="dropdown-users" class="hidden py-2 space-y-2 ml-5">
           <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Halaman
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">Halaman
               Pengguna</a>
           </li>
           {{-- <li>
             <a href="#"
-              class="flex items-center p-2 pl-11 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">add
+              class="flex items-center p-2 pl-8 w-full text-sm text-gray-600 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 capitalize">add
               user</a>
           </li> --}}
         </ul>
